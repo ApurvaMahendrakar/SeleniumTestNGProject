@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="152518" started-at="2022-05-24T16:50:09 IST" finished-at="2022-05-24T16:52:42 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="152518" started-at="2022-05-24T16:50:09 IST" finished-at="2022-05-24T16:52:42 IST">
+      <class name="POMConfig.DriverPOM">
+        <test-method status="PASS" signature="openBrowserTest()[pri:0, instance:POMConfig.DriverPOM@10a035a0]" name="openBrowserTest" is-config="true" duration-ms="25837" started-at="2022-05-24T16:50:09 IST" finished-at="2022-05-24T16:50:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserTest -->
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:POMConfig.DriverPOM@10a035a0]" name="loginTest1" duration-ms="6218" started-at="2022-05-24T16:50:37 IST" finished-at="2022-05-24T16:50:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="takeScreeshot(org.testng.ITestResult)[pri:0, instance:POMConfig.DriverPOM@10a035a0]" name="takeScreeshot" is-config="true" duration-ms="9" started-at="2022-05-24T16:50:43 IST" finished-at="2022-05-24T16:50:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest1 status=SUCCESS method=DriverPOM.loginTest1()[pri:0, instance:POMConfig.DriverPOM@10a035a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreeshot -->
+        <test-method status="PASS" signature="sendEmailTest2()[pri:0, instance:POMConfig.DriverPOM@10a035a0]" name="sendEmailTest2" duration-ms="118508" started-at="2022-05-24T16:50:43 IST" depends-on-methods="POMConfig.DriverPOM.loginTest1" finished-at="2022-05-24T16:52:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmailTest2 -->
+        <test-method status="PASS" signature="takeScreeshot(org.testng.ITestResult)[pri:0, instance:POMConfig.DriverPOM@10a035a0]" name="takeScreeshot" is-config="true" duration-ms="1" started-at="2022-05-24T16:52:42 IST" finished-at="2022-05-24T16:52:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sendEmailTest2 status=SUCCESS method=DriverPOM.sendEmailTest2()[pri:0, instance:POMConfig.DriverPOM@10a035a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreeshot -->
+        <test-method status="PASS" signature="closeDriverTest()[pri:0, instance:POMConfig.DriverPOM@10a035a0]" name="closeDriverTest" is-config="true" duration-ms="0" started-at="2022-05-24T16:52:42 IST" finished-at="2022-05-24T16:52:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverTest -->
+      </class> <!-- POMConfig.DriverPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

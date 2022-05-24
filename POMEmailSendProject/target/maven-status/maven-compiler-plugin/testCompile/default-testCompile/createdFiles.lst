@@ -1,0 +1,8 @@
+POMSpecs\AttachFile.class
+POMConfig\DriverPOM.class
+POMCommon\Common.class
+POMPages\SendEmailPage.class
+POMPages\LoginPage.class
+POMSpecs\SendEmail.class
+POMSpecs\Login.class
+POMConfig\ConfigurationPOM.class
